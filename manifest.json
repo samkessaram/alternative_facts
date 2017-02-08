@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Alternative Facts",
+  "version": "1.0",
+  "description": "Make the internet great again!",
+  "icons": {
+    "128": "united-states.png"
+  },
+  "browser_action": {
+    "default_icon": "united-states.png",
+    "default_title": "Click to disable Alternative Facts"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
+
+// Icon made by [Freepik](http://www.flaticon.com/authors/freepik) from www.flaticon.com 
