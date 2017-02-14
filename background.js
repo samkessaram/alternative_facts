@@ -3,7 +3,7 @@ chrome.browserAction.onClicked.addListener(function(tab){
     file: "scripts.js",
     runAt: "document_end"
   }, function(){
-    console.log('script executed')
+    console.log('Script executed')
   })
 })
 
